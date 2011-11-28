@@ -55,5 +55,7 @@ class Brucie
       return card_two
     end
     Brucie::CATCHPHRASE
+  rescue
+    "You did something silly."
   end
 end
